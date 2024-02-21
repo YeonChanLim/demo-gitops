@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: vas
-          image: saturn203/vas
+          image: yclim10/vas:0.0.1
           ports:
           - name: http
             containerPort: 8080
